@@ -19,13 +19,13 @@
 
 .row{
 
-	width: 1000px;
+	width: 1200px;
 	height: 400px;
 	margin:0 auto;}
 
 
            /* start-box */
-.first-box{
+.first-box , .third-box{
 	display: inline-block;
 	position: relative;
 	left: 50px;
@@ -42,12 +42,13 @@
 
 
 
-.tird-box{
-	display: inline-block;
-	position: relative;
-	left: 50px;
-	top: 20px}
-}
             /* end-box */
 
 /* end-row */
+
+.discount{
+	position:absolute;
+	right: 0;
+	top: 0;
+	background:  #ff3333;
+}
