@@ -25,20 +25,13 @@
 
 
            /* start-box */
-.first-box , .third-box{
+.box{
 	display: inline-block;
 	position: relative;
 	left: 50px;
 	top: 20px
 }
 
-
-.second-box{
-	display: inline-block;
-	position: relative;
-	left: 50px;
-	top: 20px
-}
 
 
 
@@ -46,9 +39,32 @@
 
 /* end-row */
 
+
+/* discount-code */
+
 .discount{
 	position:absolute;
 	right: 0;
 	top: 0;
 	background:  #ff3333;
 }
+
+
+#discount-five{
+	background:#1aff1a;
+}
+/* /discount-code */
+
+
+/* heart */
+.heart{
+	display: none;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 20px;
+}
+.box:hover .heart{
+	display: block;
+}
+/* /heart */
