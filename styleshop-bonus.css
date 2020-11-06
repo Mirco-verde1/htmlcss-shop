@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin-left: 0;
+	padding: 0;
+}
+/* TITLE */
+.title-page{
+	position: fixed;
+	width: 100%;
+	background:#e6e6e6;
+	height: 100px;
+}
+
+.title-page , h1{
+	color: #e65c00;
+	text-align: center;
+	font-size: 40px;
+	background: #666633;
+	border-radius: 100px;
+	z-index: 1;
+}
+
+.offerta{
+	display: none;
+}
+
+
+.title-page:hover .offerta{
+	display: block;
+	font-size: 100px;
+
+}
+/* END-TITLE */
+
+
+/* conteiner-box */
+
+.main-container{
+	width: 1200px;
+	height: 1000px;
+	background: #c299ff;
+	margin: 0 auto;
+	position: relative;
+}
+/* end-container-box */
+
+
+/* start-box */
+
+.box{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	top:150px;
+	border: 1px solid #336666;
+	background-image:url(IMG/instagram.png);
+	background-position: center;
+	}
+
+	.box .text-box{
+		position: absolute;
+		font-family: 'Anton', sans-serif;
+	}
+
+	footer{
+	position: absolute;
+	bottom: 0;
+	right: 595px;
+  font-family: 'Anton', sans-serif;
+	}
